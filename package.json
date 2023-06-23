@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --watch ./test/*.js --no-timeout"
+    "test": "mocha --watch ./test/signUp.js --no-timeout"
   },
   "author": "",
   "license": "ISC",
