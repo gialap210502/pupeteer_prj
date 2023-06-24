@@ -122,6 +122,7 @@ describe('Testing login page', () => {
 
         expect(result.trim()).to.equal(url);
     });
+    // Need to create another acc to test cases below
     it("8/Sign up unsuccessfully with 33 characters", async function () {
         const url = "https://app.gcalls.co/g/confirm/1d318edfc19e7e9832186e64e3e7c13b3fd1bad0b3afad2fd1abe25c6f0f54694c75a615faa4aa8cb92bbdef1183ea99d8413";
         await page.goto(url);
